@@ -1,0 +1,8 @@
+---
+label: Tools (component)
+hide_body: false
+fields:
+- name: design_tools
+  type: tag_list
+  default: []
+  label: Design Tools

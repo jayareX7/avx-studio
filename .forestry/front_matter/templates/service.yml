@@ -1,0 +1,33 @@
+---
+label: Service (page)
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: type_of_service
+  type: include
+  config: {}
+  template: select-service
+  label: Type of Service
+- name: service_details
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Service Details
+- name: starting_cost
+  type: number
+  label: Starting Cost
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 

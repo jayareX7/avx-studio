@@ -1,0 +1,53 @@
+---
+label: Contact (page)
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: header_image
+  type: file
+  config:
+    maxSize: 64
+  label: Header Image
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+- name: cta_image__1
+  type: file
+  config:
+    maxSize: 64
+  label: 'CTA Image #1'
+- name: cta_text__1
+  type: text
+  config:
+    required: false
+  label: 'CTA Text #1'
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body
+- name: cta_image__2
+  type: file
+  config:
+    maxSize: 64
+  label: 'CTA Image #2'
+- name: cta_text__2
+  type: text
+  config:
+    required: false
+  label: 'CTA Text #2'
+- name: footer_image
+  type: file
+  config:
+    maxSize: 64
+  label: Footer Image

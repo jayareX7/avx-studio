@@ -1,0 +1,22 @@
+---
+label: Select Service - single (component)
+hide_body: true
+fields:
+- name: type_of_service
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Corporate Branding
+    - Web Design
+    - Graphic Design
+    - Visual Design
+    - Audio Design
+    - Marketing
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type of Service

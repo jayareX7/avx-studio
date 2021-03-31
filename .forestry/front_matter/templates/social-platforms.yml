@@ -1,0 +1,39 @@
+---
+label: Social Platforms (component)
+hide_body: true
+fields:
+- name: social_platforms
+  type: field_group_list
+  fields:
+  - name: platform
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - Facebook
+      - Twitter
+      - Instagram
+      - Pinterest
+      - Behance
+      - Dribble
+      - Youtube
+      - TikTok
+      - Vimeo
+      - Website/URL
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Platform
+  - name: title
+    type: text
+    config:
+      required: false
+    label: URL/Link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Social Platforms

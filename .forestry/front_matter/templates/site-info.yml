@@ -1,0 +1,43 @@
+---
+label: Site Info (page)
+hide_body: false
+fields:
+- name: site_logo
+  type: file
+  config:
+    maxSize: 64
+  label: Site Logo
+- name: site_name
+  type: text
+  config:
+    required: false
+  label: Site Name
+- name: title
+  type: text
+  config:
+    required: false
+  label: Site Header
+- name: company_address
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Company Address
+- name: contact_number
+  type: number
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  label: Contact Number
+- name: social_platforms
+  type: include
+  config: {}
+  template: social-platforms
+  label: Social Platforms

@@ -1,0 +1,8 @@
+---
+label: Tags (component)
+hide_body: true
+fields:
+- name: design_tags
+  type: tag_list
+  default: []
+  label: Design Tags

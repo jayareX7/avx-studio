@@ -1,0 +1,84 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: directory
+  path: _services
+  label: Services
+  create: documents
+  match: "*.md"
+  templates:
+  - service-type
+- type: directory
+  path: _posts
+  label: Posts
+  create: documents
+  match: "*.md"
+- type: directory
+  path: data
+  label: Site Info
+  create: documents
+  match: "*"
+  templates:
+  - site-info
+- type: directory
+  path: ''
+  label: Root pages
+  create: all
+  match: "*"
+- type: heading
+  label: Static Pages
+- type: directory
+  path: about-avx
+  label: About Us
+  create: documents
+  match: "*"
+- type: directory
+  path: contact
+  label: Contact
+  create: documents
+  match: "*"
+  templates:
+  - contact
+- type: heading
+  label: Dynamic Pages
+- type: directory
+  path: services
+  label: Services
+  create: documents
+  match: "*"
+  templates:
+  - service
+- type: directory
+  path: past-work
+  label: Past Works
+  create: documents
+  match: "*"
+  templates:
+  - portfolio-item
+- type: directory
+  path: team-members
+  label: Team Members
+  create: documents
+  match: "*"
+  templates:
+  - team
+- type: directory
+  path: shop
+  label: Shop
+  create: documents
+  match: "*"
+upload_dir: public/assets/blog
+public_path: "/assets/blog"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_output_directory: ".next"
+  install_dependencies_command: npm install
+  preview_docker_image: forestryio/node:12
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: npm run dev

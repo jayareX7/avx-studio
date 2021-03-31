@@ -1,0 +1,248 @@
+// ####################################### //
+// ## COLORS.SCSS ## //
+// ####################################### //
+
+    $primary-color: #000;
+
+    $secondary-color: rgb(255, 252, 55);
+
+    $body-color:  #FFF;
+
+    $light-weight: 200;
+    $regular-weight: 400;
+    $medium-weight: 500;
+    $semibold-weight: 600;
+    $bold-weight: 700;
+
+    $black: #000;
+    $white: #fff;
+
+    $black-900: #000000;
+    $black-800: #222222;
+    $black-700: #2b2b2b;
+    $black-600: #323232;
+    $black-500: #444444;
+    $black-400: #535353;
+    $black-300: #606060;
+    $black-200: #6c6c6c;
+    $black-100: #757575;
+
+    $gray-900: #797979;
+    $gray-800: #929292;
+    $gray-700: #a5a5a5;
+    $gray-600: #b9b9b9;
+    $gray-500: #c8c8c8;
+    $gray-400: #d6d6d6;
+    $gray-300: #e2e2e2;
+    $gray-200: #ececec;
+    $gray-100: #f4f4f4;
+    $gray-50: #fbfbfb;
+
+    $brand-900: #f7fbfd;
+    $brand-800: #f7fbfd;
+    $brand-700: #3796b5;
+    $brand-600: #f7fbfd;
+    $brand-500: #f7fbfd;
+    $brand-400: #f7fbfd;
+    $brand-300: #f4fafb;
+    $brand-200: #f7fbfd;
+    $brand-100: #f7fbfd;
+
+    $info-900: #01408f;
+    $info-800: #026dd6;
+    $info-700: #0284fe;
+    $info-600: #4ba7fe;
+    $info-500: #83c3fe;
+    $info-400: #b3daff;
+    $info-300: #dceeff;
+    $info-200: #eef7ff;
+    $info-100: #f8fbff;
+
+    $danger-900: #c50901;
+    $danger-800: #dd2018;
+    $danger-700: #ee3e37;
+    $danger-600: #fe6963;
+    $danger-500: #ffa09c;
+    $danger-400: #ffc3c0;
+    $danger-300: #ffe1e0;
+    $danger-200: #fff2f1;
+    $danger-100: #fffaf9;
+
+    $success-900: #0e7c5f;
+    $success-800: #229b7b;
+    $success-700: #3bbc9a;
+    $success-600: #58d0b0;
+    $success-500: #83eacf;
+    $success-400: #bfffee;
+    $success-300: #dffff6;
+    $success-200: #f1fffb;
+    $success-100: #f9fffd;
+
+    $warning-900: #fa912c;
+    $warning-800: #faa12c;
+    $warning-700: #fdb94c;
+    $warning-600: #ffce6d;
+    $warning-500: #ffdc89;
+    $warning-400: #ffebad;
+    $warning-300: #fff9d1;
+    $warning-200: #fffbe3;
+    $warning-100: #fffef6;
+
+
+
+
+
+
+    $fill-grad1 : url(#gradient1);
+    $fill-grad2 : url(#gradient2);
+    $fill-grad3 : url(#gradient3);
+    $fill-grad4: url(#gradient4);
+    $fill-grad5: url(#gradient5);
+
+    $fill-white: #fff;
+    $fill-black: #000;
+
+    $fill-black100: #757575;
+    $fill-black200: #6c6c6c;
+    $fill-black300: #606060;
+    $fill-black400: #535353;
+    $fill-black500: #444444;
+    $fill-black600: #323232;
+    $fill-black700: #2b2b2b;
+    $fill-black800: #222222;
+    $fill-black900: #000000;
+    $fill-brand100: #f7fbfd;
+
+    $fill-brand200: #f7fbfd;
+    $fill-brand300: #f4fafb;
+    $fill-brand400: #f7fbfd;
+    $fill-brand500: #f7fbfd;
+    $fill-brand600: #f7fbfd;
+    $fill-brand700: #3796b5;
+    $fill-brand800: #f7fbfd;
+    $fill-brand900: #f7fbfd;
+
+    $fill-gray100: #f4f4f4;
+    $fill-gray200: #ececec;
+    $fill-gray300: #e2e2e2;
+    $fill-gray400: #d6d6d6;
+    $fill-gray500: #c8c8c8;
+    $fill-gray600: #b9b9b9;
+    $fill-gray700: #a5a5a5;
+    $fill-gray800: #929292;
+    $fill-gray900: #797979;
+
+    $fill-danger100: #fffaf9;
+    $fill-danger200: #fff2f1;
+    $fill-danger300: #ffe1e0;
+    $fill-danger400: #ffc3c0;
+    $fill-danger500: #ffa09c;
+    $fill-danger600: #fe6963;
+    $fill-danger700: #ee3e37;
+    $fill-danger800 : #dd2018;
+    $fill-danger900 : #c50901;
+
+    $fill-info100 : #f8fbff;
+    $fill-info200 : #eef7ff;
+    $fill-info300 : #dceeff;
+    $fill-info400 : #b3daff;
+    $fill-info500 : #83c3fe;
+    $fill-info600 : #4ba7fe;
+    $fill-info700 : #0284fe;
+    $fill-info800 : #026dd6;
+    $fill-info900 : #01408f;
+
+    $fill-success100 : #f9fffd;
+    $fill-success200 : #f1fffb;
+    $fill-success300 : #dffff6;
+    $fill-success400 : #bfffee;
+    $fill-success500 : #83eacf;
+    $fill-success600 : #58d0b0;
+    $fill-success700 : #3bbc9a;
+    $fill-success800 : #229b7b;
+    $fill-success900 : #0e7c5f;
+
+    $fill-warning100 : #fffef6;
+    $fill-warning200 : #fffbe3;
+    $fill-warning300 : #fff9d1;
+    $fill-warning400 : #ffebad;
+    $fill-warning500 : #ffdc89;
+    $fill-warning600 : #ffce6d;
+    $fill-warning700 : #fdb94c;
+    $fill-warning800 : #faa12c;
+    $fill-warning900 : #fa912c;
+
+    $bg-white : #fff !important;
+    $bg-black : #000 !important;
+    $bg-transparent : transparent !important;
+
+    $bg-black900: #000000 !important;
+    $bg-black800 : #222222 !important;
+    $bg-black700 : #2b2b2b !important;
+    $bg-black600 : #323232 !important;
+    $bg-black500 : #444444 !important;
+    $bg-black400 : #535353 !important;
+    $bg-black300 : #606060 !important;
+    $bg-black200 : #6c6c6c !important;
+    $bg-black100 : #757575 !important;
+
+    $bg-gray900 : #797979 !important;
+    $bg-gray800 : #929292 !important;
+    $bg-gray700 : #a5a5a5 !important;
+    $bg-gray600 : #b9b9b9 !important;
+    $bg-gray500 : #c8c8c8 !important;
+    $bg-gray400 : #d6d6d6 !important;
+    $bg-gray300 : #e2e2e2 !important;
+    $bg-gray200 : #ececec !important;
+    $bg-gray100 : #f4f4f4 !important;
+
+    $bg-brand900 : #f7fbfd !important;
+    $bg-brand800 : #f7fbfd !important;
+    $bg-brand700 : #3796b5 !important;
+    $bg-brand600 : #f7fbfd !important;
+    $bg-brand500 : #f7fbfd !important;
+    $bg-brand400 : #f7fbfd !important;
+    $bg-brand300 : #f4fafb !important;
+    $bg-brand200 : #f7fbfd !important;
+    $bg-brand100 : #f7fbfd !important;
+
+    $bg-info900 : #01408f !important;
+    $bg-info800 : #026dd6 !important;
+    $bg-info700 : #0284fe !important;
+    $bg-info600 : #4ba7fe !important;
+    $bg-info500 : #83c3fe !important;
+    $bg-info400 : #b3daff !important;
+    $bg-info300 : #dceeff !important;
+    $bg-info200 : #eef7ff !important;
+    $bg-info100 : #f8fbff !important;
+
+    $bg-danger900 : #c50901 !important;
+    $bg-danger800 : #dd2018 !important;
+    $bg-danger700 : #ee3e37 !important;
+    $bg-danger600 : #fe6963 !important;
+    $bg-danger500 : #ffa09c !important;
+    $bg-danger400 : #ffc3c0 !important;
+    $bg-danger300 : #ffe1e0 !important;
+    $bg-danger200 : #fff2f1 !important;
+    $bg-danger100 : #fffaf9 !important;
+
+    $bg-success900 : #0e7c5f !important;
+    $bg-success800 : #229b7b !important;
+    $bg-success700 : #3bbc9a !important;
+    $bg-success600 : #58d0b0 !important;
+    $bg-success500 : #83eacf !important;
+    $bg-success400 : #bfffee !important;
+    $bg-success300 : #dffff6 !important;
+    $bg-success200 : #f1fffb !important;
+    $bg-success100 : #f9fffd !important;
+
+    $bg-warning900 : #fa912c !important;
+    $bg-warning800 : #faa12c !important;
+    $bg-warning700 : #fdb94c !important;
+    $bg-warning600 : #ffce6d !important;
+    $bg-warning500 : #ffdc89 !important;
+    $bg-warning400 : #ffebad !important;
+    $bg-warning300 : #fff9d1 !important;
+    $bg-warning200 : #fffbe3 !important;
+    $bg-warning100 : #fffef6 !important;
+  

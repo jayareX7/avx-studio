@@ -1,0 +1,52 @@
+---
+label: Portfolio (page)
+hide_body: false
+display_field: title
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+- name: thumbnail
+  type: file
+  config:
+    maxSize: 64
+  label: Thumbnail
+- name: service_date
+  type: datetime
+  label: Service Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: details
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Details
+- name: type_of_service
+  type: include
+  config: {}
+  template: select-service
+  label: Type of Service
+- name: design_tools
+  type: include
+  config: {}
+  template: tools
+  label: Design Tools
+- name: image_gallery
+  type: image_gallery
+  config: {}
+  label: Image Gallery
