@@ -1,5 +1,5 @@
 
-import Portfoliofull from '../components/Portfolios/Portfoliofull4col';
+import EventGallery from '../components/Portfolios/Eventgallery';
 
 
 
@@ -9,7 +9,8 @@ const Portfoliofull4col = () => {
 
         <div className="body_wrapper">
             
-            <Portfoliofull/>
+           
+            <EventGallery />
     
         </div>
     
