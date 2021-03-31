@@ -57,7 +57,7 @@ const petSchema = new mongoose.Schema({
 })
 
 
-const myDB = mongoose.connection.useDb('AVXStudio-db');
+const myDB = mongoose.connection.useDb('AVXStudio');
 
 const Pets =  myDB.models.Pet || myDB.model('pets', petSchema);
 
