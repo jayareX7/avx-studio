@@ -37,7 +37,7 @@ sections:
   match: "*.md"
 - type: directory
   path: data/_services
-  label: Services
+  label: Service Type
   create: documents
   match: "*.md"
   templates:
