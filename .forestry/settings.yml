@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: _services
+  path: data/_services
   label: Services
   create: documents
   match: "*.md"
