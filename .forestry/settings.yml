@@ -31,10 +31,10 @@ sections:
   create: documents
   match: "*.md"
 - type: directory
-  path: about-avx
+  path: data/_about
   label: About Us
   create: documents
-  match: "*"
+  match: "*.md"
 - type: directory
   path: data/_services
   label: Services
@@ -43,10 +43,10 @@ sections:
   templates:
   - service-type
 - type: directory
-  path: contact
+  path: data/_contact
   label: Contact
   create: documents
-  match: "*"
+  match: "*.md"
   templates:
   - contact
 - type: heading
@@ -64,24 +64,19 @@ sections:
   templates:
   - service
 - type: directory
-  path: past-work
+  path: data/_past-work
   label: Past Works
   create: documents
-  match: "*"
+  match: "*.md"
   templates:
   - portfolio-item
 - type: directory
-  path: team-members
+  path: data/_team-members
   label: Team Members
   create: documents
-  match: "*"
+  match: "*.md"
   templates:
   - team
-- type: directory
-  path: shop
-  label: Shop
-  create: documents
-  match: "*"
 upload_dir: public/assets
 public_path: public/assets
 front_matter_path: ''
