@@ -26,11 +26,6 @@ sections:
 - type: heading
   label: Content
 - type: directory
-  path: data/_about
-  label: About Us
-  create: documents
-  match: "*.md"
-- type: directory
   path: data/_posts
   label: Posts
   create: documents
@@ -63,6 +58,13 @@ sections:
   match: "*.md"
   templates:
   - team
+- type: heading
+  label: Pages
+- type: directory
+  path: data/_about
+  label: About Us
+  create: documents
+  match: "*.md"
 - type: directory
   path: data/_contact
   label: Contact
