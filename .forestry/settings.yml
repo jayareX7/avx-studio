@@ -45,6 +45,11 @@ sections:
 - type: heading
   label: Store
 - type: directory
+  path: data/_products
+  label: Products
+  create: documents
+  match: "*.md"
+- type: directory
   path: services
   label: Services
   create: documents
