@@ -26,13 +26,13 @@ sections:
 - type: heading
   label: Content
 - type: directory
-  path: data/_posts
-  label: Posts
+  path: data/_about
+  label: About Us
   create: documents
   match: "*.md"
 - type: directory
-  path: data/_about
-  label: About Us
+  path: data/_posts
+  label: Posts
   create: documents
   match: "*.md"
 - type: directory
@@ -50,6 +50,13 @@ sections:
   templates:
   - service
 - type: directory
+  path: data/_past-work
+  label: Past Works
+  create: documents
+  match: "*.md"
+  templates:
+  - portfolio-item
+- type: directory
   path: data/_contact
   label: Contact
   create: documents
@@ -63,13 +70,6 @@ sections:
   label: Products
   create: documents
   match: "*.md"
-- type: directory
-  path: data/_past-work
-  label: Past Works
-  create: documents
-  match: "*.md"
-  templates:
-  - portfolio-item
 - type: directory
   path: data/_team-members
   label: Team Members
