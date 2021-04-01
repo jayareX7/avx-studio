@@ -32,7 +32,3 @@ fields:
   - type: file
     name: url
     label: url
-pages:
-- _posts/dynamic-routing.md
-- _posts/hello-world.md
-- _posts/preview.md
