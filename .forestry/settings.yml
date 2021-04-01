@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: admin/cms
 webhook_url: 
 sections:
+- type: heading
+  label: Appearance
 - type: directory
   path: data
   label: Site Info
@@ -12,17 +14,15 @@ sections:
   templates:
   - site-info
 - type: directory
-  path: ''
-  label: Root pages
-  create: all
-  match: "*"
-- type: heading
-  label: Appearance
-- type: directory
   path: data/_links
   label: Links
   create: documents
   match: "*.md"
+- type: directory
+  path: ''
+  label: Root pages
+  create: all
+  match: "*"
 - type: heading
   label: Content
 - type: directory
