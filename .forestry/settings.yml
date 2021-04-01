@@ -31,13 +31,6 @@ sections:
   create: documents
   match: "*.md"
 - type: directory
-  path: data/_services
-  label: Service Types
-  create: documents
-  match: "*.md"
-  templates:
-  - service-type
-- type: directory
   path: services
   label: Services
   create: documents
@@ -58,6 +51,15 @@ sections:
   match: "*.md"
   templates:
   - team
+- type: heading
+  label: Content Types
+- type: directory
+  path: data/_services
+  label: Service Types
+  create: documents
+  match: "*.md"
+  templates:
+  - service-type
 - type: heading
   label: Pages
 - type: directory
