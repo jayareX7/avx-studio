@@ -18,10 +18,11 @@ sections:
   match: "*"
 - type: heading
   label: Appearance
-- type: document
-  path: Links
+- type: directory
+  path: data/_links
   label: Links
-  match: "**/*"
+  create: documents
+  match: "*.md"
 - type: heading
   label: Content
 - type: directory
