@@ -57,6 +57,13 @@ sections:
   templates:
   - portfolio-item
 - type: directory
+  path: data/_team-members
+  label: Team Members
+  create: documents
+  match: "*.md"
+  templates:
+  - team
+- type: directory
   path: data/_contact
   label: Contact
   create: documents
@@ -70,13 +77,6 @@ sections:
   label: Products
   create: documents
   match: "*.md"
-- type: directory
-  path: data/_team-members
-  label: Team Members
-  create: documents
-  match: "*.md"
-  templates:
-  - team
 upload_dir: public/assets
 public_path: public/assets
 front_matter_path: ''
