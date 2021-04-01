@@ -37,11 +37,18 @@ sections:
   match: "*.md"
 - type: directory
   path: data/_services
-  label: Service Type
+  label: Service Types
   create: documents
   match: "*.md"
   templates:
   - service-type
+- type: directory
+  path: services
+  label: Services
+  create: documents
+  match: "*"
+  templates:
+  - service
 - type: directory
   path: data/_contact
   label: Contact
@@ -56,13 +63,6 @@ sections:
   label: Products
   create: documents
   match: "*.md"
-- type: directory
-  path: services
-  label: Services
-  create: documents
-  match: "*"
-  templates:
-  - service
 - type: directory
   path: data/_past-work
   label: Past Works
